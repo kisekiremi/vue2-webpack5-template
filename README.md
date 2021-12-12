@@ -4,6 +4,8 @@ A template. Keywords: webpack5, vue2, vue-router, axios, element-ui
 
 重新改版，升级至 Webpack5，本项目比较适合个人折腾 or 其他
 
+<b>在“npm i”之前看下EX-Plugins中的readme</b>
+
 仓库地址：https://github.com/kisekiremi/vue2-webpack5-template
 
 参考仓库：https://github.com/dfcook/vue-webpack4-template
