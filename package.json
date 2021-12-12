@@ -1,0 +1,52 @@
+{
+  "name": "little_box",
+  "version": "1.0.0",
+  "description": "A Vue.js template using Webpack 5",
+  "author": "kisekiremi(kisekiremi@outlook.com)",
+  "scripts": {
+    "dev": "webpack serve --progress --config build/webpack.config.dev.js",
+    "prod": "webpack --progress --config build/webpack.config.prod.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.19.3",
+    "element-ui": "^2.15.6",
+    "js-base64": "^2.5.1",
+    "js-cookie": "^2.2.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.15.0",
+    "@testing-library/vue": "^5.8.2",
+    "@vue/test-utils": "^1.2.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-component": "^1.1.1",
+    "compression-webpack-plugin": "^9.0.1",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash.template": "^4.5.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "node-sass": "^6.0.0",
+    "prerender-spa-plugin": "^3.4.0",
+    "prettier": "^2.5.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "uglify-es": "^3.3.9",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.8",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.50.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
